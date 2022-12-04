@@ -55,34 +55,25 @@ var questions = [
   },
 
   {
-    question: "How do you access indices of an array?",
-    answers: [
-      "Dot notation - MyArray.2",
-      "Square brackets - MyArray[2]",
-      "Ampersands - MyArray&&2",
-      "Equals symbol - MyArray = 2",
-    ],
-    correctAnswer: 1,
-  },
-  {
     question:
-      "Whats the difference between using == and === when comparing two values?",
+      "Which of the following function of String object returns the characters in a string between two indexes into the string?",
     answers: [
-      "Using === is better than using == because there's more of them",
-      "== compares the values and types, === compares the values only",
-      "They are not used, only = is used to compare values",
+      "slice()",
+      "split()",
+      "substring()",
       "== compares the values only, === compares the values and types",
     ],
     correctAnswer: 3,
   },
   {
-    question: "What would myVariable++ do?",
+    question:
+      " Which of the following function of String object returns the calling string value converted to lower case?",
     answers: [
-      "Add 1 to myVariable",
-      "Make a copy of myVariable",
-      "Doubles the value of myVariable",
-      "Makes myVariable equal to 0",
+      "toLocaleLowerCase()",
+      "toLowerCase()",
+      "toString()",
+      "substring()",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
 ];

@@ -1,11 +1,8 @@
 # Module 6 Challenge Web APIs: Code Quiz
 
-## Your Task
+By {Tarik Khamliche}
 
-As you proceed in your journey to becoming a front-end web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
-
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework has taught you all the skills you need to succeed in this challenge.
- 
+Build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code . It will have a clean, polished, and responsive user interface.
 
 ## User Story
 
@@ -15,74 +12,55 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
 
-## Acceptance Criteria
+## Description
 
 Create a code quiz that contains the following requirements:
 
-* A start button that when clicked a timer starts and the first question appears.
- 
-  * Questions contain buttons for each answer.
-  * 
-  * When answer is clicked, the next question appears
-  * 
-  * If the answer clicked was incorrect then subtract time from the clock
+- A start button that when clicked a timer starts and the first question appears.
 
-* The quiz should end when all questions are answered or the timer reaches 0.
+- Questions contain buttons for each answer.
+-
+- When answer is clicked, the next question appears
+-
+- If the answer clicked was incorrect then subtract time from the clock
 
-  * When the game ends, it should display their score and give the user the ability to save their initials and their score
-  
-## Mock-Up
+- The quiz should end when all questions are answered or the timer reaches 0.
 
+- When the game ends, it should display their score and give the user the ability to save their initials and their score
+
+## Installation
+
+N/A
 The following animation demonstrates the application functionality:
 
 ![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their intials, then clears their intials and starts over.](./assets/08-web-apis-challenge-demo.gif)
 
-## Grading Requirements
+## Usage
 
-This challenge is graded based on the following criteria: 
+Can be used on any modern browsers
 
-### Technical Acceptance Criteria: 40%
+### ScreenShots
 
-* Satisfies all of the above acceptance criteria.
+## Credits
 
-### Deployment: 32%
+- Post regarding saving and retrieving high scores to and from LocalStorage https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
 
-* Application deployed at live URL.
+- Creaate a multiple choice quiz using JavaScript:
+  https://www.codeexplained.dev/2018/10/create-multiple-choice-quiz-using-javascript.html
 
-* Application loads with no errors.
+- HTMLElement.hidden:
+  https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden
 
-* Application GitHub URL submitted.
+- mdn web docs "Your first form" :
+  https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
 
-* GitHub repository that contains application code.
+- sample quiz:
+  https://codepen.io/boopalan002/pen/yKZVGa
 
-### Application Quality: 15%
+https://github.com/mmeii/code-quiz/tree/main/Assets
 
-* Application user experience is intuitive and easy to navigate.
+https://github.com/jorguzman100/04_Code_Quiz
 
-* Application user interface style is clean and polished.
+https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+https://github.com/CodeExplainedRepo/Multiple-Choice-Quiz-JavaScript
