@@ -96,8 +96,8 @@ function setupQuestions() {
 function displayQuestions() {
   questionTitle.textContent = questions[questionCount].question;
   for (var i = 0; i < 4; i++) {
-    // select the the class numbered the same as the answers index number, found stack overflow article suggesting use CSS.escape
-    //https://stackoverflow.com/questions/37081721/use-variables-in-document-queryselector
+    // select the the class numbered the same as the answers index number
+
     var listItemButton = document.querySelector("." + CSS.escape(i));
     listItemButton.textContent = questions[questionCount].answers[i];
   }
@@ -149,8 +149,8 @@ function clearQA() {
   questionTitle.textContent = "";
   // clear the text content of the four answer li's
   for (var i = 0; i < 4; i++) {
-    // select the the class numbered the same as the answers index number, found stack overflow article suggesting use CSS.escape
-    //https://stackoverflow.com/questions/37081721/use-variables-in-document-queryselector
+    // select the the class numbered the same as the answers index number
+
     var listItem = document.querySelector("." + CSS.escape(i));
     // clear the text content of the li
     listItem.textContent = "";
