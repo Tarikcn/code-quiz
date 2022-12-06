@@ -1,4 +1,4 @@
-# Module 6 Challenge Web APIs: Code Quiz
+# Web APIs: Code Quiz
 
 By {Tarik Khamliche}
 
@@ -19,9 +19,9 @@ Create a code quiz that contains the following requirements:
 - A start button that when clicked a timer starts and the first question appears.
 
 - Questions contain buttons for each answer.
--
+
 - When answer is clicked, the next question appears
--
+
 - If the answer clicked was incorrect then subtract time from the clock
 
 - The quiz should end when all questions are answered or the timer reaches 0.
@@ -57,10 +57,10 @@ Can be used on any modern browsers
 - sample quiz:
   https://codepen.io/boopalan002/pen/yKZVGa
 
-https://github.com/mmeii/code-quiz/tree/main/Assets
+- https://github.com/mmeii/code-quiz/tree/main/Assets
 
-https://github.com/jorguzman100/04_Code_Quiz
+- https://github.com/jorguzman100/04_Code_Quiz
 
-https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript
+- https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript
 
-https://github.com/CodeExplainedRepo/Multiple-Choice-Quiz-JavaScript
+- https://github.com/CodeExplainedRepo/Multiple-Choice-Quiz-JavaScript
