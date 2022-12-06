@@ -66,3 +66,6 @@ Can be used on any modern browsers
 - https://www.codingninjas.com/codestudio/library/how-to-create-a-quiz-app-using-javascript
 
 - https://github.com/CodeExplainedRepo/Multiple-Choice-Quiz-JavaScript
+
+### App URL:
+https://tarikcn.github.io/code-quiz/
