@@ -19,7 +19,7 @@ var correctSound = document.querySelector("audio[data-sound='correct']");
 var incorrectSound = document.querySelector("audio[data-sound='incorrect']");
 var feedbackDiv = document.querySelector("#feedback");
 
-// sets how long the timer will be
+// sets how is the timer
 var timer = 75;
 // determines if the end of the quiz was reached
 var quizFinished = false;
