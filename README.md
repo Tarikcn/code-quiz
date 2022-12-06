@@ -40,6 +40,8 @@ The following animation demonstrates the application functionality:
 Can be used on any modern browsers
 
 ### ScreenShots
+![image](https://user-images.githubusercontent.com/115656280/206049047-e1f75ebf-e940-461c-8b57-01ac55fcdb43.png)
+![image](https://user-images.githubusercontent.com/115656280/206049098-9e4e5a54-ca4d-48db-a758-9aee7aedfbff.png)
 
 ## Credits
 
